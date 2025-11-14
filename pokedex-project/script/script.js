@@ -48,13 +48,19 @@ const handleBack = () => {
   }
 };
 
+input.addEventListener("keydown", (event) => {
+  const valueKeyDown = event.key;
+  const valueInput = input.value;
+
+  if (valueKeyDown === "Enter") {
+    event.preventDefault();
+    getPokemon(valueInput);
+  }
+});
+
 forward.addEventListener("click", () => {
   handleForward();
 });
 back.addEventListener("click", () => {
   handleBack();
 });
-
-// estou usanso o forwaard momentaneamente pra n ficar mandando request atoa com keyup ou downa
-// forward.addEventListener("click", handleForward);
-// back.addEventListener("click", handleBack);

@@ -1,4 +1,4 @@
-.input-default {
+.content__input {
   padding: 10px;
   width: 100%;
   border-radius: 5px 5px 5px 2px;
@@ -6,7 +6,7 @@
   border: 1.5px solid black;
 }
 
-.button-default {
+.content__button {
   padding: 10px 40px;
   flex: 1;
   border-radius: 5px 5px 5px 2px;
@@ -14,6 +14,6 @@
   border: 1.5px solid black;
 }
 
-.typograph{
+.content__typograph {
   font-weight: bold;
 }

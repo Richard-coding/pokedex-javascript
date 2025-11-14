@@ -11,18 +11,18 @@
   position: relative;
 }
 
-.pokedex {
+.content__pokedex {
   width: 380px;
 }
 
-.pokemon {
+.content__pokemon {
   position: absolute;
   left: 110px;
   top: 150px;
   width: 140px;
 }
 
-.content-form {
+.content__form {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -31,12 +31,12 @@
   bottom: 80px;
 }
 
-.content-buttons {
+.content__buttons {
   display: flex;
   gap: 5px;
 }
 
-.content-description {
+.content__description {
   position: absolute;
   text-align: right;
   width: 200px;

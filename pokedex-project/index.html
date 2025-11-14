@@ -14,37 +14,36 @@
   <body>
     <main class="content-bg">
       <div class="content">
-        <img src="./img/pokedex.png" alt="pokedex" class="pokedex"/> 
-        <img src="" alt="pokemon" id="pokedex" class="pokemon">
-        <div class="content-description">
-          <span id="id" class="typograph"></span>
+        <img src="./img/pokedex.png" alt="pokedex" class="content__pokedex" />
+        <img src="" alt="pokemon" id="pokedex" class="content__pokemon" />
+        <div class="content__description">
+          <span id="id" class="content__typograph"></span>
           <span id="name"></span>
         </div>
-        
-        <form class="content-form">
+
+        <form class="content__form">
           <input
             type="text"
             placeholder="Pesquisar"
             id="search"
-            class="input-default"
+            class="content__input"
           />
 
-          <div class="content-buttons">
+          <div class="content__buttons">
             <input
               type="button"
               value="Anterior"
               id="back"
-              class="button-default"
+              class="content__button"
             />
             <input
               type="button"
               value="Próximo"
               id="forward"
-              class="button-default"
+              class="content__button"
             />
           </div>
         </form>
-
       </div>
     </main>
 
