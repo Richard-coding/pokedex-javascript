@@ -21,7 +21,7 @@ async function getPokemon(pokemon) {
   } catch (err) {
     id.innerHTML = 404;
     img.src = "./img/notfound.svg";
-    description.innerHTML = "- "`` + "Not found";
+    description.innerHTML = "- " + "Not found";
   }
 }
 
