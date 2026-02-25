@@ -30,4 +30,4 @@ git clone https://github.com/Richard-coding/pokedex-javascript
 
 ## Preview
 
-<p align="center"> <img src="./assets/screenshots/pokedex-preview.png" alt="Pokédex preview" /> </p>
+<p align="center"> <img src="./assets/screenshots/pokedex-preview.png" alt="Pokédex preview" width="400"/> </p>
