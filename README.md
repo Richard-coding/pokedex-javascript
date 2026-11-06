@@ -22,7 +22,7 @@ página pelo DOM.
 - Código dividido em módulos ES: `api.js` (requisição), `dom.js` (atualização da tela) e `main.js` (eventos e
   estado da navegação).
 - Eventos de teclado e de clique com `addEventListener`.
-- CSS separado em reset, layout e componentes, com nomes no padrão BEM e medidas em `rem`.
+- CSS separado em reset, layout e componentes, com nomes de classes no padrão BEM.
 
 ## Tecnologias
 
