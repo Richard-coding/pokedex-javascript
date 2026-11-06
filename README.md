@@ -1,25 +1,51 @@
-# Pokédex (Vanilla JavaScript)
+# Pokédex JavaScript
 
-A beginner-friendly Pokédex built with **HTML**, **CSS**, and **Vanilla JavaScript** using the **PokéAPI**.  
-This project was created to practice JavaScript fundamentals, API consumption, and basic front-end structure.
+Pokédex feita com HTML, CSS e JavaScript puro, que consulta a [PokéAPI](https://pokeapi.co/) para mostrar
+Pokémon pelo nome ou pelo número. Projeto independente que comecei para aplicar JavaScript na prática.
 
-It allows searching Pokémon by **name or ID** and displays basic information such as **ID**, **name**, and the **default sprite image**.
+## Objetivo
 
-## Features
-- Search Pokémon by **name** or **ID**
-- Navigate using **Back** and **Forward** buttons
-- Display Pokémon **ID**, **name**, and **sprite**
-- Handle invalid searches with a *Not Found (404)* state
+Sair dos exercícios só de layout e praticar JavaScript de verdade: requisições a uma API, eventos e atualização da
+página pelo DOM.
 
-## Tech Stack
-- HTML5
-- CSS3
-- JavaScript (ES6+)
+## Funcionalidades
+
+- Busca por nome ou número: digite e pressione Enter.
+- Botões de voltar e avançar para navegar pelos números.
+- Exibe o número, o nome e a imagem do Pokémon.
+- Tela de "não encontrado" quando a busca não tem resultado.
+- Ao abrir, carrega o Pokémon nº 1.
+
+## Como foi feito
+
+- `fetch` com `async/await` e tratamento de erro (`try/catch`) para a PokéAPI.
+- Código dividido em módulos ES: `api.js` (requisição), `dom.js` (atualização da tela) e `main.js` (eventos e
+  estado da navegação).
+- Eventos de teclado e de clique com `addEventListener`.
+- CSS separado em reset, layout e componentes, com nomes no padrão BEM e medidas em `rem`.
+
+## Tecnologias
+
+- HTML
+- CSS
+- JavaScript (ES Modules)
 - PokéAPI
 
-## How to run the project
-```bash
-# Clone the repository
-git clone <https://github.com/Richard-coding/pokedex-javascript>
+## Como executar localmente
 
-# Open index.html in your browser
+```bash
+git clone https://github.com/Richard-coding/pokedex-javascript.git
+cd pokedex-javascript
+npx serve .
+```
+
+Acesse o endereço que o comando mostrar. Um servidor local é necessário porque o projeto usa módulos ES, que o
+navegador não carrega abrindo o `index.html` direto do disco.
+
+## Status
+
+Projeto de estudo concluído no escopo atual (busca e navegação).
+
+## Autoria
+
+Desenvolvido por Richard Soares Mesquita — [GitHub](https://github.com/Richard-coding).
